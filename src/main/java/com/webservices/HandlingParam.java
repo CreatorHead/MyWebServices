@@ -27,6 +27,10 @@ public class HandlingParam {
 	
 	
 	
+	
+	
+	
+	
 
 
 	@POST
@@ -43,6 +47,16 @@ public class HandlingParam {
 	}
 	
 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	@GET
 	@Path("/path/{name}/{age}")
 	public Response path(
@@ -53,6 +67,18 @@ public class HandlingParam {
 		System.out.println("Age: " + age);
 		return Response.ok("Data Submitted").build();
 	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 }

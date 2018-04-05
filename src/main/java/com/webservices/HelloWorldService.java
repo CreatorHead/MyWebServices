@@ -4,7 +4,6 @@ import javax.ws.rs.Path;
 
 @Path("hello")
 public class HelloWorldService {
-//
 	@GET
 	@Path("hello2")
 	public String hello2() {
